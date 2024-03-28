@@ -6,11 +6,13 @@
 ### DisGeNET analysis
 #### DisGeNET analysis was performed using Metascape (https://metascape.org/gp/index.html) with default settings. Differentially expressed gene lists (p.value <0.05) from each dataset were imported into Metascape. Mouse genes were imported as mouse and analyzed as human. #### DisGeNET outputs containing enriched human disease terms (-LogP >2) were downloaded and visualized using Python’s seaborn and matplotlib libraries. The circle size represents –LogP values and the circle color represents gene ratio. 
 
-###KEGG pathway analysis
+### KEGG pathway analysis
 #### KEGG pathway analysis was performed using Metascape with default settings. Differentially expressed gene lists (p. value < 0.05) from each dataset were imported into Metascape. Mouse genes were imported as mouse and analyzed as human. KEGG outputs containing enriched #### KEGG pathways (-LogP >2) were downloaded and visualized using Python’s seaborn and matplotlib libraries. The circle size represents –LogP values and the circle color represents gene ratio.
 
 ### GO enrichment visualization
 #### Enriched GO terms were obtained from clusterProfiler outputs. GO enrichments containing biological process ontologies were visualized using Python’s seaborn and matplotlib libraries. The circle size represents –LogP values and the circle color represents gene ratio.
+
+----
 
 ## Additionally, categorical heatmaps were generated from differentially expressed gene lists from the various proteomic and transcriptomic datasets. See below for details.
 
