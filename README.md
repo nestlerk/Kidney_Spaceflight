@@ -1,5 +1,5 @@
 # Kidney_Spaceflight
-## This repo contains the code and related metadata files to generate figures 4, 5, 6a-b, and 8 for the Cosmic Kidney Disease: The Effects of Spaceflight and Galactic Cosmic Radiation on Renal Structure and Function manuscript.
+## This repo contains the code and related metadata files to generate figures 4, 5, 6a-b, and 8 for the manuscript: Cosmic kidney disease: an integrated pan-omic, physiological and morphological study into spaceflight-induced renal dysfunction.
 
 ## These analyses used files generated from three enrichment analysis: Disease term enrichment (DisGeNET), GO term (biological processes), and KEGG pathway enrichment analysis. See below for details.
 
@@ -14,7 +14,7 @@
 
 ----
 
-## Additionally, categorical heatmaps were generated from differentially expressed gene lists from the various proteomic and transcriptomic datasets. See below for details.
+### Additionally, categorical heatmaps were generated from differentially expressed gene lists from the various proteomic and transcriptomic datasets. See below for details.
 
 ### Categorical heatmap
 #### Significant genes (p. value < 0.05) were obtained from each kidney proteomic and transcriptomic dataset and ranked according to the log2 fold change direction and the number of times observed across all datasets. The highest ranked upregulated and downregulated genes were plotted using CoMut. (Citation: Crowdis, J., He, M.X., Reardon, B. & Van Allen, E. M. CoMut: Visualizing integrated molecular information with comutation plots. Bioinformatics (2020). doi:10.1093/bioinformatics/btaa554)
